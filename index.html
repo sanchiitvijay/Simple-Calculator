@@ -2,52 +2,13 @@
 <html>
     <head>
         <title>Simple Calculator</title>
-        <style>
-            body{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                background-color: #989898;
-                font-size: 15px;
-                size:15px;}
-            #number {
-                width: 45px;height:30px;
-                margin:  1px 1px;padding: 1px 1px;
-                border-radius: 5px; border: 1px solid black;
-                box-shadow: 3px 1px black;background: #3f4b55; 
-                font-size: 10px;font-weight: 600;
-                color: #fff;}
-            #sign {
-                width: 45px;height:30px;
-                margin:  1px 1px;padding: 1px 1px;
-                border-radius: 5px; border: 1px solid black;
-                box-shadow: 3px 1px black;background: #1f3848; 
-                font-size: 10px;font-weight: 600;
-                color: #fff;}
-            #equal {
-                width: 45px;height:135px;
-                margin:  1px 1px;padding: 1px 1px;
-                border-radius: 5px; border: 1px solid black;
-                box-shadow: 3px 1px black;background: #1f3848; 
-                font-size: 10px;font-weight: 600;
-                color: #fff;}
-            input{
-                width: 200px;height: 30px;
-                background-color: #3f4b55;border:1px solid black;
-                border-radius: 5px;color: whitesmoke;
-                font-size: 16px;}
-            table{
-                padding:6px;}
-            #box{
-                background-color: #1f1618;border: 1px;
-                width: 15%;height: 50%;
-                border:1px solid black;border-radius: 5px;
-                box-shadow: 6px 5px #6e8494;}
-        </style>
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
         <div id="box">
             <table>
                 <tr>
-                    <td colspan="4" style="table-layout: auto; padding-bottom: 5px;"><input type="text" id="ans"><br></td>
+                    <td colspan="4" style="table-layout: auto; padding-bottom: 5px;"><input type="text" id="ans" disabled><br></td>
                 </tr>
                 <tr>
                     <td><button value="+" id="sign" onclick="document.getElementById('ans').value +='+'">+</button><br></td>
@@ -68,7 +29,7 @@
                 </tr>
                 <tr>
                     <td><button value="1" id ="number" onclick="document.getElementById('ans').value +='1'">1</button></td>
-                    <td><button value="1" id ="number" onclick="document.getElementById('ans').value +='1'">1</button></td>
+                    <td><button value="2" id ="number" onclick="document.getElementById('ans').value +='2'">2</button></td>
                     <td><button value="3" id ="number" onclick="document.getElementById('ans').value +='3'">3</button></td>
                 </tr>
                 <tr>
