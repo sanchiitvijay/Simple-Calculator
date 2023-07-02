@@ -46,5 +46,4 @@ This project was inspired by the need for a simple calculator for basic arithmet
 ---
 
 Enjoy using the Simple Calculator! If you have any questions or need further assistance, please don't hesitate to contact me.
-
 :)
